@@ -1,33 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Demo</title>
     <style>
+        /* * {
+            background-color: darkorange;
+        } */
         body {
             /* background-color: yellow; */
             /* background-color: rgb(100, 100, 0); */
-            background-color: #ffff00;
+            /* background-color: #ffff00; */
             color: blue;
         }
         p {
             /* background-color: #ffc0cb70; */
             /* background-color: rgba(90,60,90,0.5); */
             /* font-family: monospace; */
+            font-style: italic;
+            text-align: justify;
+            line-height: 130%;
+            text-indent: 2rem;
+        }
+        h1 {
+            text-transform:uppercase;
+            letter-spacing: 10px;
         }
         h2 {
             font-size: 2rem;
             font-family: Georgia, 'Times New Roman', Times, serif;
+            font-variant: small-caps;
         }
+        a {
+            font-style: normal;
+            font-weight: bold;
+        }
+        .dulezite {
+            color: red; 
+            font-weight: bold;
+        }
+        p.poznamka {
+            font-size: x-small;
+        }
+        #hlavni_nadpis { 
+            color: violet;
+        }
+
+        ol a {
+            font-style: italic;
+        }
+
+        ol > li > a {
+            font-weight: normal;
+        }
+
+        span {
+            text-decoration: line-through;
+        }
+
     </style>
 </head>
 <body>
     <h1>Nadpis</h1>
-    
+
+    <ol>
+        <li>První</li>
+        <li>Druhý</li>
+        <li>Třetí a <a href="#">čtvrtý</a></li>
+        <li><span>Pátý a <a href="#">šestý</a></span></li>
+    </ol>
+
     <h2>Podnadpis</h2>
 
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptas ipsa exercitationem? Commodi sunt pariatur animi culpa ea deserunt, quae, cumque, optio a officiis quisquam aliquam accusamus ducimus distinctio impedit?Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quaerat alias nulla inventore rerum velit, maxime quibusdam nostrum maiores repellat officiis repellendus voluptates possimus, mollitia cum soluta nobis aliquam autem?</p>
+    <h1 id="hlavni_nadpis">Naše firma</h1>
+
+    <p class="dulezite">Kdo to ukradne, tomu upadne!</p>
+    <p>Karel jel na vodu, ale vrátil se už <span class="dulezite">za dva dny!</span>.</p>
+    <p class="poznamka">Předchozí text byl převzat z původní německé verze</p>
+
+
+
+    <p>Lorem ipsum <a href="#">dolor</a> sit, amet consectetur adipisicing elit. Delectus voluptas ipsa exercitationem? Commodi sunt pariatur animi culpa ea deserunt, quae, cumque, optio a officiis quisquam aliquam accusamus ducimus distinctio impedit?Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quaerat alias nulla inventore rerum velit, maxime quibusdam nostrum maiores repellat officiis repellendus voluptates possimus, mollitia cum soluta nobis aliquam autem?</p>
     <p style="color: red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim laborum alias placeat dolorum necessitatibus optio. Repellat rerum eos sapiente soluta illo ipsa dolorem corporis, explicabo voluptates facilis, est impedit perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae inventore, officia ipsam eligendi non tempora sit natus, tempore necessitatibus beatae repellat voluptatum aperiam quis voluptates facilis, nesciunt minus perferendis optio.</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum perferendis soluta mollitia earum a, quisquam aperiam voluptas fugit expedita dolores reprehenderit? Voluptatum qui voluptates sunt cum facilis aperiam laborum similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quaerat reprehenderit assumenda veniam praesentium qui nihil, sit quidem unde numquam? Quam optio tempora ipsam quo ex. Ipsa ut et dolores!</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias autem laboriosam repudiandae, eveniet iste est optio eos suscipit, unde magni tempora pariatur soluta debitis sint ex! Recusandae necessitatibus deleniti incidunt?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, nam ipsam tenetur consequatur blanditiis magnam? Officia totam nesciunt laboriosam id cum dolor nihil, dolores reprehenderit veritatis consequuntur officiis cumque error?</p>
