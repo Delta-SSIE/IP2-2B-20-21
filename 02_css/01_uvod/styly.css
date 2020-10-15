@@ -1,0 +1,67 @@
+        /* * {
+            background-color: darkorange;
+        } */
+        body {
+            /* background-color: yellow; */
+            /* background-color: rgb(100, 100, 0); */
+            /* background-color: #ffff00; */
+            color: blue;
+        }
+        p {
+            /* background-color: #ffc0cb70; */
+            /* background-color: rgba(90,60,90,0.5); */
+            /* font-family: monospace; */
+            font-style: italic;
+            text-align: justify;
+            line-height: 130%;
+            text-indent: 2rem;
+        }
+        h1 {
+            text-transform:uppercase;
+            letter-spacing: 10px;
+        }
+        h2 {
+            font-size: 2rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-variant: small-caps;
+        }
+        a {
+            font-style: normal;
+            font-weight: bold;
+        }
+        .dulezite {
+            color: red; 
+            font-weight: bold;
+        }
+        p.poznamka {
+            font-size: x-small;
+        }
+        #hlavni_nadpis { 
+            color: violet;
+        }
+
+        ol a {
+            font-style: italic;
+        }
+
+        ol > li > a {
+            font-weight: normal;
+        }
+
+        span {
+            text-decoration: line-through;
+        }
+
+        ul.druhyList {
+            list-style-type: square;
+        }
+
+        #druhaPolozka {
+            list-style-type: circle;
+        }
+
+        ol {
+            /* list-style-image: url('kitty.png'); */
+            /* list-style-type: circle; */
+            list-style-position: inside;
+        }
